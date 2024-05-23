@@ -19,6 +19,14 @@ public class Employee {
 		else {
 			System.out.println("end");
 		}
+		
+		String s="Java";
+		boolean equals=s.equals(s);
+		System.out.println(equals);
+		
+		String s1="Java";
+		boolean equals1 =s.equals(s1);
+		System.out.println(equals1);
 	}
 
 }
