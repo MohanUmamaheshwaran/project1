@@ -19,6 +19,23 @@ public class Employee {
 		else {
 			System.out.println("end");
 		}
+		
+	String str= "hello"	;
+	String output ="";
+	
+	for (int i= str.length()-1;i>=0;i--) {
+		char C= str.charAt(i);
+		output=output+C;
 	}
+	System.out.println("Reverse of given String :" + output);
+		
+		
+	}
+		
+		
+	}
+	
+	
+	
 
-}
+
