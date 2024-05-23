@@ -2,6 +2,16 @@ package project;
 
 public class Employee {
 	public static void main(String[] args) {
+		
+		String s="Java";
+		boolean equals=s.equals(s);
+		System.out.println(equals);
+		
+		String s1="Java";
+		boolean equals1 =s.equals(s1);
+		System.out.println(equals1);
+		
+		
 		//nested if (operator)
 		int a = 10; int b= 22; int c= 44;
 		
@@ -20,13 +30,7 @@ public class Employee {
 			System.out.println("end");
 		}
 		
-		String s="Java";
-		boolean equals=s.equals(s);
-		System.out.println(equals);
 		
-		String s1="Java";
-		boolean equals1 =s.equals(s1);
-		System.out.println(equals1);
 	}
 
 }
