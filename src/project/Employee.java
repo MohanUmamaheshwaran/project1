@@ -30,7 +30,26 @@ public class Employee {
 			System.out.println("end");
 		}
 		
+<<<<<<< HEAD
+		
+=======
+	String str= "hello"	;
+	String output ="";
+	
+	for (int i= str.length()-1;i>=0;i--) {
+		char C= str.charAt(i);
+		output=output+C;
+>>>>>>> a2e18b83e2fba9ca908318297e4d183ddfc7d842
+	}
+	System.out.println("Reverse of given String :" + output);
+		
 		
 	}
+		
+		
+	}
+	
+	
+	
 
-}
+
